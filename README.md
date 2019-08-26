@@ -1,3 +1,3 @@
-#Git Practice
+# Git Practice
 
-##List of Git Commands
+## List of Git Commands
