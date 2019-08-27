@@ -65,13 +65,23 @@
     <p>From branch we want to merge to</p>
     <p>git merge branchname</p>
     <hr>
+    <h4>To delete a branch (on local repo)</h4>
+    <p>git branch -d branchname</p>
+    <hr>
+    <h4>To delete a branch (on remote repo)</h4>
+    <p>git push origin --delete branchname</p>
+    <hr>
     <h3>To push to a remote repository on GitHub</h3>
     <hr>
     <h4>After creating a GitHub repo</h4>
     <p>git remote add origin https://...</p>
-    <p>then</p>
+    <p>then, first time</p>
     <p>git push -u origin master</p>
+    <p>later just</p>
+    <p>git push</p>
     <hr>
+    <h4>To pull latest files from remote repo to local repo</h4>
+    <p>git pull origin master</p>
 
     <script src="app.js"></script>
 </body>
